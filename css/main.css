@@ -1,0 +1,92 @@
+.container{
+	width: 700px;
+	margin: 0 auto;
+}
+ul {
+    list-style-type: none;
+    margin-left: 110px;
+ 	
+}
+li {
+ 	display: inline;
+ 	border-right:1px solid black;
+ 	padding-right: 10px;
+ 	padding-left: 10px;
+}
+img {
+	width:700px;
+}
+.linea2{
+	width: 100px;
+	border:2px solid gray;
+	margin-top: 25px;
+}
+p {
+	text-align: center;
+	font-size: 20px;
+	margin-left:75px;
+	margin-right: 75px;
+}
+/*Estilo de archivo Nuestras Coders*/
+.ncod { 
+   border: 1px solid #4dff4d; 
+   border-radius: 200px /8px; 
+   height: 0px; 
+   width: 50px; 
+   margin-left: 1px
+ } 
+
+h1 {
+	color: #4da5ff;
+	font-family: 'Indie Flower', cursive;
+}
+/*Solo los Div dentro de Div*/
+.nscodr div div {
+	height:150px ;
+	width:150px ;
+	border:1px solid black;
+	border-radius: 20px;
+	display: inline-block;
+	margin:5px ;
+	text-align: right;
+	padding: 0px;
+	/*Filtros de imagen */
+	-webkit-filter: brightness(1.2) drop-shadow(6px 6px 10px black) grayscale(0.3) opacity(0.7);
+}
+.img1 {
+	background-image: url("../img/profile-1.png");
+	background-size: 100%;
+}
+.img2{
+	background-image: url("../img/profile-2.png");
+	background-size: 100%;
+}
+.img3{
+	background-image: url("../img/profile-3.png");
+	background-size: 100%;
+}
+.img4{
+	background-image: url("../img/profile-4.png");
+	background-size: 100%;
+}
+.img5{
+	background-image: url("../img/profile-5.png");
+	background-size: 100%;
+}
+.img6{
+	background-image: url("../img/profile-6.png");
+	background-size: 100%;
+}
+
+.pimg{
+	/*Usar text-align para alinear a la derecha o a la izquierda*/
+	text-align: center;
+	/*Usar padding para bajar el texto*/
+	padding-top: 85px;
+	color:#0099ff;
+	font-family:Cursive;
+	font-size: 10px;
+	font-weight: bold;
+	/*Estilo de texto para resaltar*/
+	text-shadow: 1px 1px #000000;
+}
