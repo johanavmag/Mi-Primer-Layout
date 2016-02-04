@@ -16,10 +16,13 @@ li {
 img {
 	width:700px;
 }
-.linea2{
+hr{
 	width: 100px;
 	border:2px solid gray;
 	margin-top: 25px;
+}
+#izq{
+	margin-left: 1px;
 }
 p {
 	text-align: center;
@@ -28,30 +31,22 @@ p {
 	margin-right: 75px;
 }
 /*Estilo de archivo Nuestras Coders*/
-.ncod { 
-   border: 1px solid #4dff4d; 
-   border-radius: 200px /8px; 
-   height: 0px; 
-   width: 50px; 
-   margin-left: 1px
- } 
-
 h1 {
-	color: #4da5ff;
+	color: #666666;
 	font-family: 'Indie Flower', cursive;
+	text-shadow: 2px 2px #0;
 }
 /*Solo los Div dentro de Div*/
 .nscodr div div {
-	height:150px ;
-	width:150px ;
+	height:200px ;
+	width:200px ;
 	border:1px solid black;
 	border-radius: 20px;
 	display: inline-block;
 	margin:5px ;
-	text-align: right;
 	padding: 0px;
 	/*Filtros de imagen */
-	-webkit-filter: brightness(1.2) drop-shadow(6px 6px 10px black) grayscale(0.3) opacity(0.7);
+	-webkit-filter: saturate(0.3);
 }
 .img1 {
 	background-image: url("../img/profile-1.png");
@@ -77,16 +72,67 @@ h1 {
 	background-image: url("../img/profile-6.png");
 	background-size: 100%;
 }
-
 .pimg{
-	/*Usar text-align para alinear a la derecha o a la izquierda*/
-	text-align: center;
-	/*Usar padding para bajar el texto*/
-	padding-top: 85px;
-	color:#0099ff;
+	/*Usar padding para alinear el texto*/
+	padding-top: 135px;
+	padding-left: 50px;
+	color:white;
 	font-family:Cursive;
-	font-size: 10px;
+	font-size: 14px;
 	font-weight: bold;
 	/*Estilo de texto para resaltar*/
-	text-shadow: 1px 1px #000000;
+	text-shadow: 3px 3px #000000;
+}
+/*Estilo Detalles Coders*/
+.coder1{
+	width: 200px;
+	height: 200px;
+	border-radius: 300px;
+	position: relative;
+	left: 250px;
+}
+h2{
+	font-size: 55px;
+	text-align: center;
+	margin-top:2px;
+}
+.bio1{
+	text-align: center;
+}
+h3{
+	font-size: 45px;
+}
+.hgray{
+	background-color: gray;
+	height: 40px;
+	margin-top: 30px;
+	padding-top:10px;
+	padding-left: 15px;
+	padding-bottom: 0px;
+	color: white;
+}
+.hg1{
+	width: 60%;
+}
+.hg2{
+	width:40% 
+}
+.hg3{
+	width:20%;
+}
+.imgport div div{
+	display: inline-block;
+	width:220px ;
+	height: 180px;
+	background-size: 100%;
+	margin: 5px;
+}
+.porta1{
+	background-image: url("C:/Users/Johana/Desktop/JohanaVargas/MiPrimerLayout/img/p5.jpg");
+}
+.porta2{
+	background-image: url("C:/Users/Johana/Desktop/JohanaVargas/MiPrimerLayout/img/p6.jpg");
+}
+.porta3{
+	background-image: url("C:/Users/Johana/Desktop/JohanaVargas/MiPrimerLayout/img/p8.jpg");
 }
