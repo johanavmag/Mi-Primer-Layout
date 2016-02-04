@@ -10,13 +10,15 @@ ul {
 li {
  	display: inline;
  	border-right:1px solid black;
- 	padding-right: 10px;
- 	padding-left: 10px;
+ 	padding-right: 5px;
+ 	text-align: left;
+ 	font-size: 16px;
+ 	font-family: Lucida Console;
 }
 img {
 	width:700px;
 }
-hr{
+.linea2{
 	width: 100px;
 	border:2px solid gray;
 	margin-top: 25px;
@@ -26,14 +28,15 @@ hr{
 }
 p {
 	text-align: center;
-	font-size: 20px;
+	font-size: 17px;
 	margin-left:75px;
 	margin-right: 75px;
+	font-family: Lucida Console;
 }
 /*Estilo de archivo Nuestras Coders*/
 h1 {
 	color: #666666;
-	font-family: 'Indie Flower', cursive;
+	font-family: Lucida Console;
 	text-shadow: 2px 2px #0;
 }
 /*Solo los Div dentro de Div*/
@@ -76,12 +79,12 @@ h1 {
 	/*Usar padding para alinear el texto*/
 	padding-top: 135px;
 	padding-left: 50px;
-	color:white;
-	font-family:Cursive;
+	color: white;
+	font-family:Lucida Console;
 	font-size: 14px;
 	font-weight: bold;
 	/*Estilo de texto para resaltar*/
-	text-shadow: 3px 3px #000000;
+	text-shadow: 2px 2px #000000;
 }
 /*Estilo Detalles Coders*/
 .coder1{
@@ -95,12 +98,14 @@ h2{
 	font-size: 55px;
 	text-align: center;
 	margin-top:2px;
+	font-family: Lucida Console;
 }
 .bio1{
 	text-align: center;
 }
 h3{
 	font-size: 45px;
+	font-family: Lucida Console;
 }
 .hgray{
 	background-color: gray;
